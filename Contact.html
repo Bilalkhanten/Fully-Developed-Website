@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Contact us</title>
+        <meta charset="utf-8">
+        <meta name="Home" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+        <link rel="stylesheet" type="text/css" href="styles.css"> 
+</head> 
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <table>
+                    <tr>
+                        <td align="left">
+                                <a href="https://global.astonmartin.com/en-us" target="_blank"><img src="Images\AM.jpg" alt="LOGO" width="550" height="175" align="left"></a>
+                        </td>
+                    </tr>
+                </table>
+                
+            </div>
+            <div class="col-md-6">
+                <table>
+                    <tr>
+                        <td align="right">
+                                <pre><a href="https://global.astonmartin.com/en-us" target="_blank"><img src="Images\fb.png" alt="LOGO" width="50" height="50" align="right"/><a href="https://www.google.com/gmail/" target="_blank"><img src="Images/gm.png" alt="LOGO" width="50" height="50" align="right"/><a href="https://twitter.com/login?lang=en" target="_blank"><img src="Images/tw.jpg" alt="LOGO" width="50" height="50" align="right"/><a href="https://pk.linkedin.com/" target="_blank"><img src="Images/in.png" alt="LOGO" width="50" height="50" align="right"/></pre>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <nav class="navvar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-hearder">
+                    <a class="navbar-brand" href="https://global.astonmartin.com/en-us"><h4 style="color: grey"><b>Aston Martin</b></h4></a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="Home.html" targer="_blank"><h4>Home</h4></a>
+                    </li>
+                    <li>
+                        <a href="About.html" targer="_blank"><h4>About us</h4></a>
+                    </li>
+                    <li>
+                        <a href="Products.html" targer="_blank"><h4>Products</h4></a>
+                    </li>
+                    <li>
+                        <a href="Details.html" targer="_blank"><h4>Details</h4></a>
+                    </li>  
+                    <li class="active">
+                        <a href="Contact.html" targer="_blank"><h4>Contact us</h4></a>
+                    </li>   
+                </ul>
+            </div>
+        </nav>
+
+       
+
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                            <pre><h4><u>Contact us:</u></h4><form name="form1">
+                                First Name:      <input type="text" name="fname"><br>
+                                Second Name: <input type="text" name="sname"><br>
+                                Email:               <input type="email" name="sname"><br>
+                                Phone:              <input type="number" name="phone"><br>
+
+                                Status:
+                                <input type="radio" name="status" value="Employed" checked>Employed    <input type="radio" name="status" value="Unemployed">Unemployed
+                
+                                City:
+                                <select name="City">
+                                <option value="London">London
+                                <option value="Lahore" selected>Lahore
+                                <option value="Paris">Paris
+                                <option value="Islamabad">Islamabad
+                                <option value="Riyadh">Riyadh 
+                                <option value="Manchester">Manchester
+                                <option value="Dublin">Dublin
+                                <option value="Los Angeles">Los Angeles
+                                <option value="Kuala Lumpur">Kuala Lumpur
+                                <option value="Muscat">Muscat                            
+                                </select>
+
+                            </form></pre>
+                    </div>
+                    <div class="col-md-6"><pre><h4><u>Locations:</u></h4><ul><li>Aston Martin Birmingham
+Kenilworth Road Hampton-In-Arden
+West Midlands, B92 0LR
+les.stimson@astonmartinbirmingham.co.uk
+T: 01675 419500</li> <li>Aston Martin Cheltenham
+Rutherford Way
+Gloucestershire, GL51 9TU
+T: 08439032362
+astonmartincheltenham@hrowen.co.uk</li>
+<li>Aston Martin Newport Pagnell                       
+Aston Martin Lagonda Ltd Tickford Street
+Bucks, MK16 9AN
+T: 08439032357
+paul.spires@astonmartin.com</li></u></pre>  
+                    </div>
+                </div>
+            </div>
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                <pre><h3>Message</h3><textarea rows="10" cols="55"></textarea>
+<input type="submit" value="Submit">
+                </pre>   
+                    </div>
+                    <div class="col-md-6">
+                            <div id="map" style="width:550px;height:390px;background:yellow"></div>
+                            
+                            <script>
+                            function myMap() {
+                              var mapCanvas = document.getElementById("map");
+                              var mapOptions = {
+                                center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+                              };
+                              var map = new google.maps.Map(mapCanvas, mapOptions);
+                            }
+                            </script>
+                            
+                            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCti-75ZZuNywPyP7yvv1zfWi5BIbt2qis&callback=myMap"></script></div>
+                </div>
+            </div>
+        <div class="container">
+                <h2>References:</h2>
+                <button type="button" class="btn btn-default"><a href="https://en.wikipedia.org/wiki/Aston_Martin" target="_blank"><b>wikipedia</b></a></button>
+                <button type="button" class="btn btn-default"><a href="https://www.facebook.com/astonmartin/" target="_blank"><b>Facebook</b></button>
+                <button type="button" class="btn btn-default"><a href="https://twitter.com/astonmartin"target="_blank"><b>Twitter</b></button>
+                <button type="button" class="btn btn-default"><a href="https://www.instagram.com/astonmartinlagonda/?hl=en"target="_blank"><b>Instagram</b></button>
+                <button type="button" class="btn btn-default"><a href="https://pk.linkedin.com/company/aston-martin-lagonda-ltd"target="_blank"><b>Linkedin</b></button>
+                <button type="button" class="btn btn-default"><a href="https://global.astonmartin.com/en-us"target="_blank"><b>Mail</b></button>   
+            </div>
+        <footer>
+                <a href="https://global.astonmartin.com/en-us" target="_blank"><img src="Images\fb.png" alt="LOGO" width="50" height="50" align="center"/><a href="https://www.google.com/gmail/" target="_blank"><img src="Images/gm.png" alt="LOGO" width="50" height="50" align="center"/><a href="https://twitter.com/login?lang=en" target="_blank"><img src="Images/tw.jpg" alt="LOGO" width="50" height="50" align="center"/><a href="https://pk.linkedin.com/" target="_blank"><img src="Images/in.png" alt="LOGO" width="50" height="50" align="center"/><br>
+                Copyright &copy; AstonMartin.co.uk
+        </footer>
+</body>
+<html>

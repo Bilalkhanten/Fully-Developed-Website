@@ -1,0 +1,49 @@
+
+body
+{
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    background: #323534 url(back.png) repeat-x;
+    height: 177px;
+}
+footer 
+{
+    padding: 2em;
+    background: #212421 url(footer.png) repeat-x;
+    color: #A8AA94;
+    clear: top;
+    text-align: center;
+}
+nav 
+{
+    float: top;
+    max-height: 160px;
+    color: grey;
+    background-color: #2b2727;
+    margin: 0;
+    padding: 2em;
+}
+h4
+{
+    font-family: Georgia;
+    font-size: 20px;
+}
+h3
+{
+    font-family: Georgia;
+}
+pre
+{
+    background-color: #C4C3C3;
+    font-size: 18px;
+    font-family: Georgia;
+
+}
+p
+{
+    align: center;
+    font-size: 18px;
+}
